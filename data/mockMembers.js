@@ -1,8 +1,8 @@
-const uuid = require("uuid");
+// const uuid = require("uuid");
 
 const members = [
   {
-    id: uuid.v4(),
+    id: 1,
     firstName: "Jesse",
     lastName: "Cowgirl",
     email: "jesse@me.com",
@@ -12,7 +12,7 @@ const members = [
     dogSize: "S"
   },
   {
-    id: uuid.v4(),
+    id: 2,
     firstName: "Woody",
     lastName: "Cowboy",
     email: "woody@me.com",
@@ -22,7 +22,7 @@ const members = [
     dogSize: "L"
   },
   {
-    id: uuid.v4(),
+    id: 3,
     firstName: "Buzz",
     lastName: "Lightyear",
     email: "buzz@me.com",
@@ -32,7 +32,7 @@ const members = [
     dogSize: "XL"
   },
   {
-    id: uuid.v4(),
+    id: 4,
     firstName: "Forky",
     lastName: "HaHa",
     email: "forky@me.com",
@@ -42,7 +42,7 @@ const members = [
     dogSize: "L"
   },
   {
-    id: uuid.v4(),
+    id: 5,
     firstName: "What",
     lastName: "Noooooo",
     email: "what.nooo@me.com",
@@ -52,3 +52,5 @@ const members = [
     dogSize: "M"
   }
 ];
+
+module.exports = members;
