@@ -17,16 +17,17 @@
     <div>
       <form
         class="uk-margin-medium-left uk-margin-medium-right"
-        action=""
+        action="/api/members"
+        method="POST"
         uk-grid
       >
         <div class="uk-width-1-2@s">
           <span class="uk-label">First Name</span>
-          <input class="uk-input" type="text" />
+          <input name="firstName" class="uk-input" type="text" />
         </div>
         <div class="uk-width-1-2@s">
           <span class="uk-label">Last Name</span>
-          <input class="uk-input" type="text" />
+          <input name="lastName" class="uk-input" type="text" />
         </div>
 
         <input
